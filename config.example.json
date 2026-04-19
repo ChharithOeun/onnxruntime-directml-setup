@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to config.json. Used by inference scripts.",
+  "device": "dml",
+  "model_dir": "models",
+  "default_image_model": "models/microsoft_resnet-50/model.onnx",
+  "default_text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "batch_size": 1,
+  "top_k": 5,
+  "warmup_runs": 2
+}
