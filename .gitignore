@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+models/*.onnx
+models/*.pb
+models/imagenet_labels.txt
+!models/.gitkeep
+*.npy
+*.log
+config.json
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
